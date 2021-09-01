@@ -1,1 +1,20 @@
-@import 'scss/colors';
+@import "scss/colors";
+
+.nav-link {
+  margin: 0 3rem;
+}
+
+body {
+  position: relative;
+  height: 200vh;
+}
+.card {
+  position: fixed;
+  opacity: 0;
+  left: 50%;
+  transition: all 0.5s;
+}
+
+.card.active {
+  opacity: 1;
+}

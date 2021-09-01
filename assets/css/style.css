@@ -1,1 +1,21 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.nav-link {
+  margin: 0 3rem;
+}
+
+body {
+  position: relative;
+  height: 200vh;
+}
+
+.card {
+  position: fixed;
+  opacity: 0;
+  left: 50%;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.card.active {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
